@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CODIGO DOMINADO / FORMULARIO.</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1 id="title">CODIGO DOMINADO / FORMULARIO.</h1>
+        <p id="description">{[Formulario ficticio para sumarte a CODIGO DOMINADO.]}</p>
+    </div>
+    <div class="container">
+    <form action="" method="post" id="survey-form">
+
+        <fieldset class="input-text">
+            <label for="name" id="name-label"> Nombres
+                <input type="text" id="name" required placeholder="Ingrese su Nombre.">
+            </label>
+            <label for="email" id="email-label"> E-mail
+                <input type="email" id="email" required placeholder="Ingrese su E-mail">
+            </label>
+            <label for="number" id="number-label"> Edad
+                <input type="number" id="number" required min="18" max="120" placeholder="Ingrese su Edad">
+            </label>
+        </fieldset>
+
+        <fieldset id="opciones">
+            <p>Cuanto sabes de Programacion Web?</p>
+            <select id="dropdown">
+                    <option name="dropdown" value="" disabled selected>Elije una opcion...</option>
+                    <option name="dropdown" value="op1">No tengo conocimiento del tema.</option>
+                    <option name="dropdown" value="op2">Conozco poco del tema.</option>
+                    <option name="dropdown" value="op3">Tengo conocimiento del tema.</option>
+                    <option name="dropdown" value="op4">Tengo conocimientos avanzados del tema.</option>
+                    <option name="dropdown" value="op5">Soy experto en el tema.</option>
+            </select> 
+        </fieldset>
+
+        <fieldset id="radioButtom">
+            <p>Donde conociste a CODIGO DOMINADO?</p>
+            <label for="radio"><input type="radio" name="radio" value="radio01"> Amigos.</label>
+            <label for="radio"><input type="radio" name="radio" value="radio02"> Internet.</label>
+            <label for="radio"><input type="radio" name="radio" value="radio01"> Revistas.</label>
+            <label for="radio"><input type="radio" name="radio" value="radio02"> Publicidad.</label>
+        </fieldset>
+
+        <fieldset id="checkboxButtom">
+            <p>Elije las opciones que te identifican.</p>
+            <label for="checkbox"><input type="checkbox" value="checkbox01"> Quiero aprender para: Trabajar.</label>
+            <label for="checkbox"><input type="checkbox" value="checkbox02"> Quiero aprender para: Divertirme.</label>
+            <label for="checkbox"><input type="checkbox" value="checkbox03"> Quiero aprender para: Mejorar mis habilidades.</label>
+        </fieldset>
+
+        <fieldset class="textarea">
+            <p>Cuantanos como fue tu proceso de aprendizaje.</p>
+            <textarea name="" id="" cols="53" rows="10" ></textarea>
+        </fieldset >
+
+        <input type="submit" value="ENVIAR" id="submit">
+
+    </form>
+    </div>
+</body>
+</html>
