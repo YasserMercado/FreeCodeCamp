@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(184, 184, 184);
+}
+header{
+    background-color: rgb(29, 29, 29);
+}
+
+#title{
+    font-family: 'Phudu', cursive;
+    font-size: 5rem;
+    color: aliceblue;
+    text-align: center;
+}
+#img-div{
+    display: block;
+    height: auto;
+    margin: auto;
+    background-color: rgb(168, 168, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+    border-radius: 5px;
+}
+#img-caption{
+       
+}
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+
+article{
+    font-size: 1.3rem;
+    margin: auto 10rem;
+}
+.fecha{
+    color: rgb(0, 0, 0);
+}
+h2{
+    display: block;
+    font-size: 3rem;
+    font-family: 'phudu', cursive;
+    text-align: center;
+}
+p{
+    padding: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(176, 177, 177);
+    margin: 10px 0;
+}
+.link{
+    text-align: center;
+}
