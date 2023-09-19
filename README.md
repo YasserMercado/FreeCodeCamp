@@ -13,5 +13,5 @@ Este es el repositorio principal en donde se encuentran todos los proyectos real
 | 05  | [Portafolio](https://github.com/YasserMercado/FreeCodeCamp/tree/main/Portafolio)                 |
 
 **NOTAS** 
-° El repositorio se ampliara a medida que se realicen nuevas certificaciones.
-° No se mejoraran los proyectos realizados para luego poder ver el progreso de las habilidades personales.
+El repositorio se ampliara a medida que se realicen nuevas certificaciones.
+No se mejoraran los proyectos realizados para luego poder ver el progreso de las habilidades personales.
